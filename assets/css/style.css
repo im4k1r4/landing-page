@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+header .logo {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+    filter: invert(100%);
+}
+
+.menu nav a {
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    height: 70px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-right: 50px;
+    height: 70px;
+}
+
+.main-content {
+    padding: 50px;
+}
+
+header nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    width: 80px;
+    height: 30px;
+}
+
+header nav a:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+section {
+    height: 400px;
+
+}
+
+section .main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .main-content a {
+    text-decoration: none;
+}
+
+section .main-content img {
+    display: flex;
+    flex-direction: flex-end;
+    width: 600px;
+    transform: scaleX(-1);
+}
+
+.item-desc {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+section .item-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;;
+    font-family: 'Bebas Neue', cursive;
+    flex: 1;
+}
+
+section .item-pic {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.main-desc {
+    display: flex;
+    justify-content: left;
+    font-size: 50px;
+}
+
+.resume-desc {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #d3d3d3;
+}
+
+.especif-item {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.especif-item div {
+    margin-left: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.especif-item .item-width {
+    display: flex;
+    width: 30px;
+    filter: invert(100%);
+}
+
+.especif-item .item-height {
+    width: 30px;
+    filter: invert(100%);
+}
+
+.especif-item .item-weight {
+    width: 30px;
+    transform: none;
+    filter: invert(100%);
+}
+
+.especif-item .item-vel {
+    width: 30px;
+    transform: none;
+    filter: invert(100%);
+}
+
+.buy-now {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: #000;
+    color: #FFF;
+}
+
+button:hover {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF;
+    color: #000;
+}
+
+footer {
+    margin-top: 15px;
+    height: 35px;
+}
+
+.footerarea {
+    font-size: 12px;
+    padding: 15px;
+    text-align: center;
+    color: #d3d3d3;
+    background-color: #070707;
+}
+
+.footerarea a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #d3d3d3;
+}
