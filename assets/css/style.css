@@ -61,7 +61,7 @@ header nav a:hover {
 }
 
 section {
-    height: 400px;
+    min-height: 400px;
 
 }
 
